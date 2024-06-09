@@ -1,0 +1,71 @@
+#annotator-toolbar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background-color: #333;
+  border: 2px solid #444;
+  padding: 15px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: move;
+}
+
+#annotator-toolbar button {
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  padding: 10px 15px;
+  transition: background-color 0.2s ease-in-out;
+  text-align: center;
+  text-decoration: none;
+}
+
+#annotator-toolbar #highlight-btn {
+  background-color: #ff6f61; 
+}
+
+#annotator-toolbar #pen-btn {
+  background-color: #3b82f6; 
+}
+
+#annotator-toolbar #note-btn {
+  background-color: #22c55e; 
+}
+
+#annotator-toolbar #export-btn {
+  background-color: #d97706; 
+}
+
+#annotator-toolbar button:hover {
+  filter: brightness(1.2);
+}
+
+#annotator-toolbar button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.7);
+}
+
+#color-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.color-option {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #000;
+  border-radius: 40px;
+  cursor: pointer;
+}
