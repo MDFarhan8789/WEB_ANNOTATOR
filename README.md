@@ -59,9 +59,9 @@ The Web Annotator is a Chrome extension that allows users to highlight text, wri
    - Open the extension popup by clicking the extension icon.
    - Use the search input to filter through the saved highlights and notes.
 
-![check saved anno](images/check saved anno.jpg)
-![delete selected anno](images/delete selected anno.jpg)
-![functions of toolbar](images/functions of toolbar.jpg)
+![check saved anno](images/image1.jpg)
+![delete selected anno](images/image2.jpg)
+![functions of toolbar](images/image3.jpg)
 
 
 ## Code Breakdown
