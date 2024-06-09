@@ -107,9 +107,13 @@ HTML structure for the popup, displaying saved highlights and notes.
 ## References
 
 1.Chrome Extension Documentation
+
 2.HTML5 Canvas
+
 3.Javascript.info website
+
 4.StackOverflow.com website
+
 5.Youtube Channels
 
 
